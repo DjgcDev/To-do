@@ -1,0 +1,114 @@
+body{
+	background-color: #FFFACD;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+	font-size: 72px;
+	margin-right: 40px;
+	font-family: "Audiowide", sans-serif;
+	font-weight: 500px;
+	color: #e23c0a;
+	text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+h1:hover {
+	transition: text-decoration 2s linear
+	
+  }
+h1:hover{
+	text-decoration: line-through;
+	
+	text-decoration-color: #000000;
+  }
+  
+
+.container{
+	background-color: #F0A30A;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 20px #611a1a;
+	width: 350px;
+	position: relative
+	
+}
+input[type = "text"]{
+	width:95%;
+	padding: 10px;
+	border: 10x solid #CCCCCC;
+	border-radius: 4px;
+}
+
+button[id= "addTaskBtn"]{
+	background-color: #F0E68C;
+	padding: 10px;
+	width: 97%;
+	border-radius: 10px;
+	margin-top: 10px;
+	
+}
+button:hover{
+	background: rgb(247, 86, 11);
+
+
+}
+	
+buttons{
+	background-color: #f53838;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-shadow: 0 0 5px #000000;
+	right: 1px;
+	position: absolute;
+	
+}
+buttons:hover{
+	background: rgb(247, 14, 14);
+}
+	
+ul[id="taskList"]{
+	background-color: antiquewhite;
+	margin-top: 10px;
+	width:90%;
+	border-radius: 14px;
+	display: block;
+	line-height: 2;
+	box-shadow: 0 0 5px #e24f0a;
+
+}
+
+li:hover{
+	transition: text-decoration 2s linear
+}
+li:hover{
+
+	text-decoration: line-through;
+	text-decoration-thickness: 3px;
+	
+	text-decoration-color: #000000;
+}
+li {
+    font-size: 18px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/* Button styling */
+button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Strikethrough effect */
+.completed {
+    text-decoration: line-through;
+	text-decoration-thickness: 3px;
